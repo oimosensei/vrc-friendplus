@@ -8,6 +8,7 @@ type ErrorResponse = {
     error: ErrorMessage;
 };
 
+
 const processLocationCard = async (card: Element) => {
     const links = card.getElementsByTagName('A');
     for (let link of links) {
